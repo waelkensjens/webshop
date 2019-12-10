@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="618beda4-40c0-47e7-b848-2f752df831e4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Webshop" />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="3469bab2-bdd7-4119-b6e3-149bd69bb97d" name="localhost" />
+    </servers>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/phpmailer/phpmailer" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1SsQpaT7yxGhHWkIlA9xHyBuzlx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Constants" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ubema/wordpress" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\Webshop\admin" />
+      <recent name="C:\wamp64\www\Webshop\admin\includes" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="618beda4-40c0-47e7-b848-2f752df831e4" name="Default Changelist" comment="" />
+      <created>1572350006931</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572350006931</updated>
+      <workItem from="1572350008093" duration="286000" />
+      <workItem from="1572350295498" duration="8502000" />
+      <workItem from="1572359847666" duration="1306000" />
+      <workItem from="1572437339782" duration="1645000" />
+      <workItem from="1572442364966" duration="6522000" />
+      <workItem from="1572543645055" duration="525000" />
+      <workItem from="1572869499631" duration="1663000" />
+      <workItem from="1572949972937" duration="12515000" />
+      <workItem from="1573043096406" duration="9142000" />
+      <workItem from="1573201074636" duration="11954000" />
+      <workItem from="1573230693879" duration="3095000" />
+      <workItem from="1573647003934" duration="10356000" />
+      <workItem from="1573663022825" duration="2563000" />
+      <workItem from="1574080815674" duration="944000" />
+      <workItem from="1574160282158" duration="3663000" />
+      <workItem from="1574194723213" duration="31413000" />
+      <workItem from="1574856957833" duration="10791000" />
+      <workItem from="1574872706385" duration="16659000" />
+      <workItem from="1575035630071" duration="672000" />
+      <workItem from="1575036338427" duration="4009000" />
+      <workItem from="1575048574802" duration="60000" />
+      <workItem from="1575048666541" duration="28068000" />
+      <workItem from="1575122352319" duration="14529000" />
+      <workItem from="1575461158792" duration="5655000" />
+      <workItem from="1575471920672" duration="926000" />
+      <workItem from="1575966574111" duration="5744000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="90" key="#Composer" timestamp="1575048762459">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="90" key="#Composer/0.0.1536.864@0.0.1536.864" timestamp="1575048762459" />
+    <state x="361" y="90" key="#SQL_Dialects" timestamp="1575116318149">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="90" key="#SQL_Dialects/0.0.1536.864@0.0.1536.864" timestamp="1575116318149" />
+    <state x="449" y="160" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1575048623328">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="449" y="160" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.864@0.0.1536.864" timestamp="1575048623328" />
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1575966703102">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1575966703102" />
+    <state width="1493" height="266" key="GridCell.Tab.0.bottom" timestamp="1575368955201">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="266" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1575368955201" />
+    <state width="1493" height="266" key="GridCell.Tab.0.center" timestamp="1575368955201">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="266" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1575368955201" />
+    <state width="1493" height="266" key="GridCell.Tab.0.left" timestamp="1575368955201">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="266" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1575368955201" />
+    <state width="1493" height="266" key="GridCell.Tab.0.right" timestamp="1575368955201">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="266" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1575368955201" />
+    <state width="1493" height="266" key="GridCell.Tab.1.bottom" timestamp="1575368955202">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="266" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1575368955202" />
+    <state width="1493" height="266" key="GridCell.Tab.1.center" timestamp="1575368955201">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="266" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1575368955201" />
+    <state width="1493" height="266" key="GridCell.Tab.1.left" timestamp="1575368955201">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="266" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1575368955201" />
+    <state width="1493" height="266" key="GridCell.Tab.1.right" timestamp="1575368955201">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="266" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1575368955201" />
+    <state width="1493" height="266" key="GridCell.Tab.2.bottom" timestamp="1575368955202">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="266" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1575368955202" />
+    <state width="1493" height="266" key="GridCell.Tab.2.center" timestamp="1575368955202">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="266" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1575368955202" />
+    <state width="1493" height="266" key="GridCell.Tab.2.left" timestamp="1575368955202">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="266" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1575368955202" />
+    <state width="1493" height="266" key="GridCell.Tab.2.right" timestamp="1575368955202">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="266" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1575368955202" />
+    <state x="573" y="246" key="NewPhpClassDialog" timestamp="1575051525460">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="573" y="246" key="NewPhpClassDialog/0.0.1536.864@0.0.1536.864" timestamp="1575051525460" />
+    <state x="604" y="355" key="NewPhpFileDialog" timestamp="1575097864255">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="604" y="355" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1575097864255" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1575101955941">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.864@0.0.1536.864" timestamp="1575101955941" />
+    <state x="465" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1575966632097">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="465" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1575966632097" />
+    <state x="425" y="197" key="run.anything.popup" timestamp="1575115815774">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1575115815774" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/product_detail.php</url>
+          <line>6</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/login.php</url>
+          <line>10</line>
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/login.php</url>
+          <line>11</line>
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/login.php</url>
+          <line>16</line>
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/login.php</url>
+          <line>18</line>
+          <option name="timeStamp" value="232" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/login.php</url>
+          <line>20</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/login.php</url>
+          <line>21</line>
+          <option name="timeStamp" value="234" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/login.php</url>
+          <line>22</line>
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/login.php</url>
+          <line>31</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/login.php</url>
+          <line>34</line>
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/login.php</url>
+          <line>35</line>
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/login.php</url>
+          <line>36</line>
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/User.php</url>
+          <line>25</line>
+          <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/User.php</url>
+          <line>26</line>
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/User.php</url>
+          <line>27</line>
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/User.php</url>
+          <line>30</line>
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/User.php</url>
+          <line>31</line>
+          <option name="timeStamp" value="245" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/User.php</url>
+          <line>32</line>
+          <option name="timeStamp" value="247" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/User.php</url>
+          <line>34</line>
+          <option name="timeStamp" value="248" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/User.php</url>
+          <line>33</line>
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/admin/includes/User.php</url>
+          <line>24</line>
+          <properties>
+            <option name="className" value="\User" />
+            <option name="methodName" value="verify_user" />
+          </properties>
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/admin/includes/Db_object.php</url>
+          <line>47</line>
+          <properties>
+            <option name="className" value="\Db_object" />
+            <option name="methodName" value="find_by_id" />
+          </properties>
+          <option name="timeStamp" value="250" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/admin/includes/Db_object.php</url>
+          <line>19</line>
+          <properties>
+            <option name="className" value="\Db_object" />
+            <option name="methodName" value="instantie" />
+          </properties>
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="add_user.php">
+        <watch expression="$_FILES['user_image']" language="PHP" />
+      </configuration>
+      <configuration name="login.php">
+        <watch expression="$session-&gt;count" />
+        <watch expression="$GLOBALS['IDE_EVAL_CACHE']['c068ff84-14c1-4490-bf8f-8201dc707c57']" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
