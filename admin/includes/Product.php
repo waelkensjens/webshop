@@ -1,17 +1,22 @@
 <?php
 
 
-class Product extends Db_object
+class  Product extends Db_object
+
 {
     protected static $db_table = "products";
-    protected static $db_table_fields = array('product_name','product_image', 'caption' , 'description','prijs', 'category_id');
-    public $id;
+    protected static $db_table_fields = array('product_name','caption' , 'description','prijs', 'category_id','EAN', 'release_date','dev','publisher');
+    public $product_id;
     public $product_name;
-    public $product_image;
     public $caption;
     public $description;
     public $prijs;
     public $category_id;
+    public $specs_id;
+    public $EAN;
+    public $release_date;
+    public $dev;
+    public $publisher;
 
 
     public $tmp_path;
@@ -28,6 +33,22 @@ class Product extends Db_object
         UPLOAD_ERR_CANT_WRITE => "Failed to write to disk",
         UPLOAD_ERR_EXTENSION => "A php extension stopped your upload"
     );
+
+
+
+
+
+
+    public function picture_path(){
+        return $this->upload_directory.DS.$this->filename;
+    }
+
+
+    public function image_path_and_placeholder(){
+        return empty($this->product_image) ? $this->image_placeholder : $this->upload_directory.DS.$this->product_image;
+    }
+
+
 
     public function set_file_product($file){
         if(empty($file) || !$file || !is_array($file)){
@@ -47,64 +68,43 @@ class Product extends Db_object
     }
 
 
+    public function save_product_and_image(){
 
 
 
-    public function picture_path(){
-        return $this->upload_directory.DS.$this->filename;
-    }
-
-    public function delete_product(){
-        if($this->delete()){
-            $target_path = SITE_ROOT.DS.'admin'. DS . $this->picture_path();
-            return unlink($target_path) ? true : false;
-        }else{
-            return false;
-        }
-
-    }
-    public function image_path_and_placeholder(){
-        return empty($this->product_image) ? $this->image_placeholder : $this->upload_directory.DS.$this->product_image;
-    }
-
-    public function save_product_and_image()
-    {
-
-
-        if($this->id){
-            move_uploaded_file($this->tmp_path);
-            $this->update();
-            unset($this->tmp_path);
-            return true;
-        }else{
-            if(!empty($this->errors))
-            {
-                return false;
-            }
-            if(empty($this->product_image) || empty($this->tmp_path)){
-                $this->errors[] = "File not available";
-                return false;
-            }
-
-            $target_path = SITE_ROOT . DS . "admin" . DS . $this->upload_directory . DS . $this->product_image;
-            if(file_exists($target_path)){
+            if($this->id){
+                move_uploaded_file($this->tmp_path);
                 $this->update();
+                unset($this->tmp_path);
                 return true;
-            }
-            if(move_uploaded_file($this->tmp_path, $target_path)){
-                if($this->create()){
-                    unset($this->tmp_path);
+            }else {
+                if (!empty($this->errors)) {
+                    return false;
+                }
+                if (empty($this->product_image) || empty($this->tmp_path)) {
+                    $this->errors[] = "File not available";
+                    return false;
+                }
+
+                $target_path = SITE_ROOT . DS . "admin" . DS . $this->upload_directory . DS . $this->product_image;
+                if (file_exists($target_path)) {
+                    $this->update();
                     return true;
                 }
-            }
-            else{
-                $this->errors[]= "This folder has no write rights";
-                return false;
-            }
+                if (move_uploaded_file($this->tmp_path, $target_path)) {
 
-        }
+                    if ($this->create()) {
+
+                        unset($this->tmp_path);
+                        return true;
+                    }
+                } else {
+                    $this->errors[] = "This folder has no write rights";
+                    return false;
+                }
+
+            }
     }
-
 
 
     public static function find_by_productname($name){
@@ -114,4 +114,21 @@ class Product extends Db_object
 
         return !empty($the_result_array) ? array_shift($the_result_array) : false;
     }
+
+    public function delete_product(){
+        global $database;
+
+        $sql = "DELETE FROM " . static::$db_table . " ";
+        $sql .= "WHERE product_id= " . $database->escape_string($this->product_id);
+        $sql .= " LIMIT 1";
+
+
+
+        $database->query($sql);
+        return(mysqli_affected_rows($database->connection) ==1) ? true : false;
+
+    }
+
+
+
 }

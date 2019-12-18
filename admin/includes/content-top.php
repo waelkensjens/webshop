@@ -1,6 +1,8 @@
 <?php
 $logged_in = User::find_by_id($session->user_id);
 
+$users = User::find_all();
+
 
 ?>
 
@@ -153,7 +155,10 @@ $logged_in = User::find_by_id($session->user_id);
                         <a href="#" class="right-bar-toggle waves-effect waves-light"><i class="icon-settings"></i></a>
                     </li>
                     <li class="dropdown top-menu-item-xs">
-                        <a href="" class="dropdown-toggle profile waves-effect waves-light" data-toggle="dropdown" aria-expanded="true"><img src="assets/images/users/avatar-1.jpg" alt="user-img" class="img-circle"> </a>
+                        <?php
+                        foreach ($users as $user) :                ?>
+                        <a href="" class="dropdown-toggle profile waves-effect waves-light" data-toggle="dropdown" aria-expanded="true"><img src="<?php echo $user->image_path_and_placeholder(); ?>" alt="user-img" class="img-circle thumb-lg"> </a>
+                        <?php endforeach;  ?>
                         <ul class="dropdown-menu">
                             <li><a href="javascript:void(0)"><i class="ti-user m-r-10 text-custom"></i> Profile</a></li>
                             <li><a href="javascript:void(0)"><i class="ti-settings m-r-10 text-custom"></i> Settings</a></li>

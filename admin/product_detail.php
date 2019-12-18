@@ -3,12 +3,13 @@ include("includes/header.php");
 if(!$session->is_signed_in()){
     redirect('login.php');
 }
-
-$products = Product::find_by_id($_GET['id']);
+$product_id = Product::find_by_product_id($_GET['id']);
+$products = $product_id;
 
 
 if(empty($_GET['id'])){
     redirect("products.php");
+
 }
 
 
@@ -39,8 +40,8 @@ include("includes/content-top.php");
                             <a href="#">Shop</a>
                         </li>
                         <li class="active">
-                            product_id
-                            <?php echo $products->id; ?>
+
+                            <?php echo $products->product_name; ?>
                         </li>
                     </ol>
                 </div>
@@ -100,77 +101,68 @@ include("includes/content-top.php");
                                     <table class="table">
                                         <tbody>
                                         <tr>
-                                            <td width="400">Brand</td>
+                                            <td>Release date</td>
                                             <td>
-                                                TheBrandStore
+                                                <?php echo $products->release_date ; ?>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Color</td>
+                                            <td >EAN</td>
                                             <td>
-                                                Black
+                                                <?php echo $products->EAN ; ?>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Length</td>
+                                            <td>players</td>
                                             <td>
-                                                9 Centimeters
+                                                <?php echo $products->dev ; ?>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Width</td>
+                                            <td>Categorie(s)</td>
                                             <td>
-                                                20 Centimeters
+                                                <?php echo $products->publisher ; ?>
                                             </td>
                                         </tr>
+
                                         <tr>
-                                            <td>Height</td>
+                                            <td>Pegi-age</td>
                                             <td>
                                                 13 Centimeters
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Weight</td>
+                                            <td>Pegi-content</td>
                                             <td>
                                                 400 Grams
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Item part number:</td>
+                                            <td>Publisher</td>
                                             <td>
-                                                ABC2016
+                                                <?php echo $products->publisher ; ?>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Design</td>
+                                            <td>Developer</td>
                                             <td>
-                                                Over-the-head
+                                                <?php echo $products->dev ; ?>
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td>Head Support</td>
+                                            <td>Spoken Languages</td>
                                             <td>
                                                 No
                                             </td>
                                         </tr>
                                         <tr>
-                                            <td width="400">Brand</td>
+                                            <td >Written Languages</td>
                                             <td>
                                                 TheBrandStore
                                             </td>
                                         </tr>
-                                        <tr>
-                                            <td>Color</td>
-                                            <td>
-                                                Black
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>Length</td>
-                                            <td>
-                                                9 Centimeters
-                                            </td>
-                                        </tr>
+
+
                                         </tbody>
                                     </table>
                                 </div>

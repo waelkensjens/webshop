@@ -71,7 +71,8 @@ class Db_object
     public static function find_by_product_id($product_id){
 
         global $database;
-        $the_result_array = static::find_this_query("SELECT * FROM " .static::$db_table . " WHERE id= $product_id LIMIT 1");
+        $the_result_array = static::find_this_query("SELECT * FROM " .static::$db_table . " WHERE product_id = $product_id LIMIT 1 ");
+
 
         return !empty($the_result_array) ? array_shift($the_result_array) : false;
     }
@@ -88,16 +89,53 @@ class Db_object
 
     /*CRUD*/
 
+    public function save_product(){
+
+        return isset($this->product_id) ? $this->update_product() : $this->create_product();
+    }
+
+    public function create_product(){
+        global $database;
+        $properties = $this->clean_properties();
+
+        $sql = " INSERT INTO " .static::$db_table . "(" .implode(",", array_keys($properties)) . ")";
+        $sql .= "VALUES('" . implode("','", array_values($properties))   . "')";
+
+        if($database->query($sql)){
+            $this->product_id = $database->the_insert_id();
+
+            return $this->product_id;
+        }else{
+            return false   ;
+        }
+    }
+    /*UPDATE*/
+    public function update_product(){
+        global $database;
+        $properties = $this->clean_properties();
+        $properties_assoc = array();
+
+        foreach ($properties as $key => $value){
+            $properties_assoc[] = "{$key}='{$value}'";
+        }
+        $sql = "UPDATE " .static::$db_table . " SET ";
+        $sql .= implode(", ", $properties_assoc);
+        $sql .= "WHERE id= " . $database->escape_string($this->id);
+
+
+        $database->query($sql);
+        return (mysqli_affected_rows($database->connection) ==1) ? true : false;
+
+    }
 
 
     /*CREATE*/
     public function create(){
         global $database;
         $properties = $this->clean_properties();
+
         $sql = " INSERT INTO " .static::$db_table . "(" .implode(",", array_keys($properties)) . ")";
         $sql .= "VALUES('" . implode("','", array_values($properties))   . "')";
-
-
 
         if($database->query($sql)){
             $this->id = $database->the_insert_id();

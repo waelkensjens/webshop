@@ -51,7 +51,6 @@ include("includes/content-top.php");
                                             <th data-priority="1">Username</th>
                                             <th data-priority="3">First Name</th>
                                             <th data-priority="3">Last Name</th>
-                                            <th data-priority="6">Password</th>
                                             <th data-priority="6">@</th>
                                             <th data-priority="6">Role_id</th>
                                             <th data-priority="6">edit</th>
@@ -64,7 +63,7 @@ include("includes/content-top.php");
                                         <tbody>
 
                                         <?php
-                                        foreach ($users as $user) :                ?>
+                                        foreach ($users as $user) :             ?>
                                             <tr>
 
 
@@ -74,7 +73,6 @@ include("includes/content-top.php");
                                                 <td><?php echo $user->username; ?></td>
                                                 <td><?php echo $user->first_name ; ?></td>
                                                 <td><?php echo $user->last_name ; ?></td>
-                                                <td><?php echo $user->password ; ?></td>
                                                 <td><?php echo $user->user_mail ; ?></td>
                                                 <td><?php echo $user->role_id ; ?></td>
                                                 <td><a class="btn btn-danger rounded-0" href="edit_user.php?id=<?php echo $user->id; ?>" ><i class=" ti-pencil-alt"></i></a></td>

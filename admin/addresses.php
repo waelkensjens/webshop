@@ -3,6 +3,7 @@ include("includes/header.php");
 if(!$session->is_signed_in()){
     redirect('login.php');
 }
+$addresses = Address::find_all();
 $users = User::find_all();
 
 
@@ -25,8 +26,8 @@ include("includes/content-top.php");
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="widget-inline-box text-center">
-                            <h3><i class="text-pink md md-account-child"></i> <?php echo count($users); ?></h3>
-                            <h4 class="text-muted">Total users</h4>
+                            <h3><i class="text-pink md md-account-child"></i> <?php echo count($addresses); ?></h3>
+                            <h4 class="text-muted">Total addresses</h4>
                         </div>
 
 
@@ -47,11 +48,11 @@ include("includes/content-top.php");
                                         <tr>
 
                                             <th data-priority="1">#</th>
-                                            <th data-priority="1">Username</th>
-                                            <th data-priority="1">street</th>
-                                            <th data-priority="3">Number</th>
+                                            <th data-priority="1">address</th>
+                                            <th data-priority="1">postal</th>
                                             <th data-priority="3">City</th>
                                             <th data-priority="6">Country</th>
+                                            <th data-priority="6">User</th>
 
 
 
@@ -65,15 +66,17 @@ include("includes/content-top.php");
                                             <tr>
 
 
-                                                <td><?php echo $address->id; ?></td>
-                                                <td><?php echo $address->username; ?></td>
-                                                <td><?php echo $address->street ; ?></td>
-                                                <td><?php echo $address->number; ?></td>
+                                                <td><?php echo $address->address_id; ?></td>
+                                                <td><?php echo $address->address; ?></td>
+                                                <td><?php echo $address->postal; ?></td>
                                                 <td><?php echo $address->city ; ?></td>
                                                 <td><?php echo $address->country ; ?></td>
-
-                                                <td><a class="btn btn-danger rounded-0" href="edit_user.php?id=<?php echo $address->id; ?>" ><i class=" ti-pencil-alt"></i></a></td>
-                                                <td><a class="btn btn-danger rounded-0" href="delete_user.php?id=<?php echo $address->id; ?>" ><i class="ion-trash-a"></i></a></td>
+                                            <?php
+                                                foreach ($users as $user) :                ?>
+                                                <td><?php echo $user->username ; ?></td>
+                                                <?php endforeach;  ?>
+                                                <td><a class="btn btn-danger rounded-0" href="edit_user.php?id=<?php echo $address->address_id; ?>" ><i class=" ti-pencil-alt"></i></a></td>
+                                                <td><a class="btn btn-danger rounded-0" href="delete_user.php?id=<?php echo $address->address_id; ?>" ><i class="ion-trash-a"></i></a></td>
 
 
                                             </tr>

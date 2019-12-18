@@ -7,7 +7,7 @@ if (isset($_POST['search_product'])) {
 
 $product_id = $_POST['product_id'];
 
-    $product = Product::find_by_id($product_id);
+    $product = Product::find_by_product_id($product_id);
 
 if ($product){
 redirect("./product_detail.php?id={$product_id}");
@@ -126,6 +126,9 @@ redirect("./product_detail.php?id={$product_id}");
 <script src="assets/plugins/datatables/dataTables.scroller.min.js"></script>
 <script src="assets/plugins/datatables/dataTables.colVis.js"></script>
 <script src="assets/plugins/datatables/dataTables.fixedColumns.min.js"></script>
+<script src="assets/plugins/moment/moment.js"></script>
+<script type="text/javascript" src="assets/plugins/x-editable/js/bootstrap-editable.min.js"></script>
+<script type="text/javascript" src="assets/pages/jquery.xeditable.js"></script>
 
 <script src="assets/pages/datatables.init.js"></script>
 

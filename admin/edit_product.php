@@ -8,7 +8,7 @@ if (empty($_GET['id'])) {
 }
 
 
-$product = product::find_by_id($_GET['id']);
+$product = product::find_by_product_id($_GET['id']);
 if (isset($_POST['update_product'])) {
     if ($product) {
         $product->product_name = $_POST['product_name'];
@@ -43,7 +43,7 @@ include("includes/content-top.php");
 
             <h1>Welkom op de product wijzigen pagina</h1>
 
-            <form action="" method="post" enctype="multipart/form-data">
+            <form action="" method="post" enctype="multipart/form-data" >
                 <div class="row">
                     <div class="col-12 ">
                         <div class="form-group">
@@ -93,7 +93,7 @@ include("includes/content-top.php");
 
 
                         <input type="submit" name="update_product" value="Update product" class="btn btn-primary">
-                        <a class="btn btn-danger" href="delete_product.php?id=<?php echo $product->id; ?>">delete product</a>
+                        <a class="btn btn-danger" href="delete_product.php?id=<?php echo $product->product_id; ?>">delete product</a>
 
                     </div>
                 </div>
@@ -125,7 +125,7 @@ include("includes/content-top.php");
                         </li>
                         <li class="active">
                             product_id
-                            <?php echo $product->id; ?>
+                            <?php echo $product->product_id; ?>
                         </li>
                     </ol>
                 </div>
@@ -133,7 +133,7 @@ include("includes/content-top.php");
 
             <div class="row">
                 <div class="col-xs-12">
-                    <div class="card-box product-detail-box">
+                    <div class="card-box product-detail-box editable">
                         <div class="row">
                             <div class="col-sm-4">
                                 <div class="sp-loading"><img src="assets/images/sp-loading.gif" alt=""><br>LOADING

@@ -7,6 +7,7 @@ $users = User::find_all();
 $products = Product::find_all();
 
 
+
 include("includes/sidebarcheck.php");
 include("includes/content-top.php");
 
@@ -48,6 +49,9 @@ include("includes/content-top.php");
                         <th >Description</th>
                         <th >Prijs</th>
                         <th >Category Id</th>
+                        <th>EAN</th>
+                        <th>publisher</th>
+                        <th>developer</th>
 
                         <th >edit</th>
                         <th >delete</th>
@@ -63,7 +67,7 @@ include("includes/content-top.php");
                         <tr>
 
 
-                            <td><a href="product_detail.php?id=<?php echo $product->id; ?>" ><?php echo $product->id; ?></a></td>
+                            <td><a href="product_detail.php?id=<?php echo $product->product_id; ?>" ><?php echo $product->product_id; ?></a></td>
                             <td><img height="40" width="40" src=" <?php echo $product->image_path_and_placeholder(); ?>" alt=""></td>
 
                             <td><?php echo $product->product_name; ?></td>
@@ -77,9 +81,12 @@ include("includes/content-top.php");
                             <td>€<?php echo $product->prijs ; ?></td>
 
                             <td><?php echo $product->category_id ; ?></td>
+                            <td><?php echo $product->EAN ; ?></td>
+                            <td><?php echo $product->publisher ; ?></td>
+                            <td><?php echo $product->dev ; ?></td>
 
-                            <td><a class="btn btn-danger rounded-0" href="edit_product.php?id=<?php echo $product->id; ?>" ><i class=" ti-pencil-alt"></i></a></td>
-                            <td><a class="btn btn-danger rounded-0" href="delete_product.php?id=<?php echo $product->id; ?>" ><i class="ion-trash-a"></i></a></td>
+                            <td><a class="btn btn-danger rounded-0" href="edit_product.php?id=<?php echo $product->product_id; ?>" ><i class=" ti-pencil-alt"></i></a></td>
+                            <td><a class="btn btn-danger rounded-0" href="delete_product.php?id=<?php echo $product->product_id; ?>" ><i class="ion-trash-a"></i></a></td>
 
 
                         </tr>

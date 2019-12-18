@@ -4,12 +4,12 @@ class Address extends Db_object
 {
     /**VARIABELEN**/
     protected static $db_table = "addresses";
-    protected static $db_table_fields = array('street', 'number', 'city', 'country','user_id');
+    protected static $db_table_fields = array('address', 'postal', 'city', 'country','user_id');
 
-    public $id;
-    public $username;
-    public $street;
-    public $number;
+    public $address_id;
+
+    public $address;
+    public $postal;
     public $city;
     public $country;
     public $user_id;
@@ -22,61 +22,25 @@ class Address extends Db_object
 
 
 
-    public function save_adress()
+    public function save_address()
     {
-        if(self::find_by_name($this->adressname)){
+        if(self::find_by_name($this->address)){
 
-            echo "adressname exists";
+            echo "address exists";
 
             return false;
 
         }
     }
-    public function save_adress_and_image()
-    {
 
 
-        if($this->id){
-            move_uploaded_file($this->tmp_path);
-            $this->update();
-            unset($this->tmp_path);
-            return true;
-        }else{
-            if(!empty($this->errors))
-            {
-                return false;
-            }
-            if(empty($this->adress_image) || empty($this->tmp_path)){
-                $this->errors[] = "File not available";
-                return false;
-            }
 
-            $target_path = SITE_ROOT . DS . "admin" . DS . $this->upload_directory . DS . $this->adress_image;
-            if(file_exists($target_path)){
-                $this->update();
-                return true;
-            }
-            if(move_uploaded_file($this->tmp_path, $target_path)){
-                if($this->create()){
-                    unset($this->tmp_path);
-                    return true;
-                }
-            }
-            else{
-                $this->errors[]= "This folder has no write rights";
-                return false;
-            }
-
-        }
-    }
-
-
-    public static function find_by_name($adressname){
+    public static function find_by_address($address){
 
         global $database;
-        $adressname = $database->escape_string($adressname);
+        $address = $database->escape_string($address);
         $sql = "SELECT * FROM " .self::$db_table . " WHERE ";
-        $sql .= "adressname = '{$adressname}' ";
+        $sql .= "adress = '{$address}' ";
         $the_result_array = self::find_this_query($sql);
         return !empty($the_result_array) ? array_shift($the_result_array) : false;
     }

@@ -17,6 +17,7 @@
                         <li><a href="./users.php">View Users</a></li>
                         <li><a href="./add_user.php">Add User</a></li>
                         <li><a href="./edit_user.php">Edit/Delete user</a></li>
+                        <li><a href="./addresses.php">Addresses</a></li>
 
 
                     </ul>
@@ -39,8 +40,8 @@
                         <li><a href="./add_product.php">Add Product</a></li>
                         <li>  <a href="#custom-modal-product" data-animation="slit" data-plugin="custommodal"
                                  data-overlaySpeed="100" data-overlayColor="#36404a">Product Details</a></li>
-                        <li><a href="./edit_product.php">Edit Products</a></li>
-                        <li><a href="components-nestable-list.html">Delete Products</a></li>
+
+
 
                     </ul>
                 </li>
