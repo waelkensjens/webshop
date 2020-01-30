@@ -18,13 +18,13 @@ This is a short explanation on everything used for this project
 
 
 
-##Local server 
+## Local server 
 
 this project is made on wamp so any problems on other servers i apologize in advance
   
 to change local server go to admin/includes/init.php an define on line 3
   
-##Database
+## Database
 
 this project is made using SQL database wich is included in the repo
   
@@ -32,13 +32,13 @@ this project is made using SQL database wich is included in the repo
   
 
   
-##admin section
+## admin section
   
 - created a rolebased login system with different sidebar functionality
 - created a passwordrecovery system where the user gets a link trough gmail only if user exists in database so for testign add user with your email
 - on the admin page u can add edit delete (users, products , images) depending on ur role
 - made a section where u can see the orders made by users
-##shop section (u'll notice different things that arent been adjusted yet since i used a templateshop found on github)
+## shop section (u'll notice different things that arent been adjusted yet since i used a templateshop found on github)
   
 - simple homepage where u can see the hot products and go to shop
 - made a login/register system for users wich automatically assigns role 4 (customer) so they have no access to the admin dashboard
