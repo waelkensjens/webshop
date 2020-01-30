@@ -1,7 +1,10 @@
 #Webshop OOP
 
 Only for educational purpose everything used is only used in open source
----
+
+
+
+
 
 ##Local server
 this project is made on wamp so any problems on other servers i apologize in advance
@@ -11,9 +14,14 @@ to change local server go to admin/includes/init.php an define on line 3
 ##Database 
 this project is made using SQL database wich is included in the repo
 
----
+
 
 ##features
+
+
+
+##features
+
 
 ##admin section
 
