@@ -41,9 +41,22 @@
                         <li>  <a href="#custom-modal-product" data-animation="slit" data-plugin="custommodal"
                                  data-overlaySpeed="100" data-overlayColor="#36404a">Product Details</a></li>
 
+                        <li class="has_sub">
+                            <a href="javascript:void(0);" class="waves-effect"><i class="ion-image"></i><span>Images </span><span class="menu-arrow"> </a>
+                            <ul class="list-unstyled">
+                                <li><a href="./images.php">View Images</a></li>
+                                <li><a href="./add_images.php">Add Images</a></li>
+                                <li><a href="./edit_images.php">Edit/Delete Images</a></li>
 
+
+
+
+                            </ul>
+
+                        </li>
 
                     </ul>
+
                 </li>
 
                 <li class="has_sub">

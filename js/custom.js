@@ -424,3 +424,37 @@ jQuery( window ).on("load",function() {
      $(".loder").fadeOut("slow");    
 });
 
+
+/*====== CheckOut Page ======*/
+function checkoutLogin(){
+    var showLogin = $('.showlogin');
+    var form = $('.checkout_login');
+    showLogin.on('click' , function(e){
+        e.preventDefault();
+        form.slideToggle();
+        form.remove('style');
+    });
+}
+checkoutLogin();
+function checkoutCoupon(){
+    var showLogin = $('.showcoupon');
+    var form = $('.checkout_coupon');
+    showLogin.on('click' , function(e){
+        e.preventDefault();
+        form.slideToggle();
+        form.remove('style');
+    });
+}
+checkoutCoupon();
+$('.wn__accountbox').on('click' , function(){
+    $('.account__field').slideToggle().remove('style');
+});
+$('.differt__address').on('click' , function(){
+    $('.differt__form').slideToggle().remove('style');
+});
+
+$('.other_address ').on('click', function(){
+    if(('#other_address').checked){
+        $('.differt__form').slideToggle().remove(('style'));
+    }
+});

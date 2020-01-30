@@ -36,12 +36,16 @@ if (isset($_POST['submit'])) {
             //create new product_image
             $fields = $cleanArray[$i];
             $new_image->product_id = $product->product_id;
-           $new_image->image_name = $product->product_name. "$i";
+            $new_image->image_name = $product->product_name."-"."$i".".jpg";
+            var_dump($new_image->image_name);
             $new_image->set_file_product($fields);
 
             $new_image->save_product_and_image();
        }
-        
+
+       if ($product&&$new_image){
+           redirect('products.php');
+        }
     }
 }
 

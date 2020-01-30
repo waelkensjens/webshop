@@ -22,3 +22,4 @@ class Categorie extends Db_object
 
 
 }
+$categories = new Categorie();

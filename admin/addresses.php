@@ -4,7 +4,7 @@ if(!$session->is_signed_in()){
     redirect('login.php');
 }
 $addresses = Address::find_all();
-$users = User::find_all();
+
 
 
 
@@ -62,7 +62,9 @@ include("includes/content-top.php");
                                         <tbody>
 
                                         <?php
-                                        foreach ($addresses as $address) :                ?>
+                                        foreach ($addresses as $address) :
+                                            $user = User::find_by_id($address->user_id);
+                                        ?>
                                             <tr>
 
 
@@ -71,10 +73,11 @@ include("includes/content-top.php");
                                                 <td><?php echo $address->postal; ?></td>
                                                 <td><?php echo $address->city ; ?></td>
                                                 <td><?php echo $address->country ; ?></td>
-                                            <?php
-                                                foreach ($users as $user) :                ?>
+
+
+
                                                 <td><?php echo $user->username ; ?></td>
-                                                <?php endforeach;  ?>
+
                                                 <td><a class="btn btn-danger rounded-0" href="edit_user.php?id=<?php echo $address->address_id; ?>" ><i class=" ti-pencil-alt"></i></a></td>
                                                 <td><a class="btn btn-danger rounded-0" href="delete_user.php?id=<?php echo $address->address_id; ?>" ><i class="ion-trash-a"></i></a></td>
 

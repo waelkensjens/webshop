@@ -1,31 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="618beda4-40c0-47e7-b848-2f752df831e4" name="Default Changelist" comment="">
+    <list default="true" id="618beda4-40c0-47e7-b848-2f752df831e4" name="Default Changelist" comment="multiple images fixed">
+      <change afterPath="$PROJECT_DIR$/about.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/product_image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/add_product.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/add_product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/addresses.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/addresses.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/images/products/FIFA 20 Standaard PS4 NewSmall.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/images/products/NBA 2k20 PS4 NewLarge.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/images/products/NFSHeat_PS4Large.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/images/products/imac.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/images/products/iphone.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/images/products/lumia.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/images/products/macbook.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/assets/images/products/samsung.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/delete_product.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/delete_product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/edit_product.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/edit_product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/images/products/32513 M jpg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/assets/images/products/NHL20PS4Large.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/includes/Address.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/Address.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/Categorie.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/Categorie.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/Comment.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/includes/Db_object.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/Db_object.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/includes/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/Product.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/content-top.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/content-top.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/init.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/includes/sidebar-left.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/sidebar-left.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/product_detail.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/product_detail.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/products.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/products.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/category_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/jquery-ui.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/jquery-ui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/magnific-popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/magnific-popup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/owl.carousel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,16 +53,20 @@
   <component name="PhpServers">
     <servers>
       <server host="localhost" id="3469bab2-bdd7-4119-b6e3-149bd69bb97d" name="localhost" />
+      <server host="127.0.0.1" id="6309542d-c789-4b58-ac67-0a50de490917" name="127.0.0.1" />
     </servers>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWebServerValidation" path_to_validation_script="C:\wamp64\www" selected_validation_type="LOCAL" web_path_to_validation_script="http://localhost" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/phpmailer/phpmailer" />
       <path value="$PROJECT_DIR$/vendor/composer" />
     </include_path>
   </component>
   <component name="ProjectId" id="1SsQpaT7yxGhHWkIlA9xHyBuzlx" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -66,20 +75,23 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Constants" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BlogOop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Adel" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.debug" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\Webshop\admin\includes" />
+      <recent name="C:\wamp64\www\Webshop" />
       <recent name="C:\wamp64\www\Webshop\admin" />
+      <recent name="C:\wamp64\www\Webshop\admin\includes" />
     </key>
   </component>
   <component name="RunManager">
@@ -149,22 +161,76 @@
       <workItem from="1576332168959" duration="805000" />
       <workItem from="1576487523182" duration="9415000" />
       <workItem from="1576505923328" duration="4802000" />
-      <workItem from="1576671043295" duration="10847000" />
+      <workItem from="1576671043295" duration="11488000" />
+      <workItem from="1576749250449" duration="9274000" />
+      <workItem from="1576764684976" duration="9706000" />
+      <workItem from="1576858310515" duration="1486000" />
+      <workItem from="1576859839349" duration="2533000" />
+      <workItem from="1576862774421" duration="8949000" />
+      <workItem from="1577079996751" duration="4717000" />
+      <workItem from="1577439095875" duration="1946000" />
+      <workItem from="1577460617672" duration="3038000" />
+      <workItem from="1577683962562" duration="15310000" />
+      <workItem from="1578033561124" duration="6893000" />
+      <workItem from="1578146671164" duration="958000" />
+      <workItem from="1578309323151" duration="832000" />
+      <workItem from="1578334713313" duration="8910000" />
+      <workItem from="1578485259436" duration="11740000" />
+      <workItem from="1578509969982" duration="5979000" />
+      <workItem from="1578556292913" duration="1557000" />
+      <workItem from="1578654514391" duration="24748000" />
+      <workItem from="1578759819534" duration="18790000" />
+      <workItem from="1578998927582" duration="12416000" />
+      <workItem from="1579023215111" duration="12255000" />
+      <workItem from="1579070285093" duration="4081000" />
+      <workItem from="1579090061007" duration="8901000" />
+      <workItem from="1579116464740" duration="4630000" />
+      <workItem from="1579166507422" duration="13000" />
+      <workItem from="1579169698032" duration="1117000" />
+      <workItem from="1579172441766" duration="4861000" />
+      <workItem from="1579263701940" duration="15000" />
+      <workItem from="1579266134963" duration="515000" />
+      <workItem from="1579700576052" duration="9814000" />
+      <workItem from="1579749558290" duration="23812000" />
+      <workItem from="1579964285422" duration="34493000" />
+      <workItem from="1580299595802" duration="10842000" />
+      <workItem from="1580322777171" duration="6069000" />
     </task>
+    <task id="LOCAL-00001" summary="multiple images fixed">
+      <created>1576681943237</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576681943237</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="multiple images fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="multiple images fixed" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="348" y="82" key="#CLI_Interpreters" timestamp="1577462826161">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="348" y="82" key="#CLI_Interpreters/0.0.1536.824@0.0.1536.824" timestamp="1577462826161" />
+    <state x="348" y="86" key="#CLI_Interpreters/0.0.1536.864@0.0.1536.864" timestamp="1577439394857" />
     <state x="361" y="90" key="#Composer" timestamp="1575048762459">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="90" key="#Composer/0.0.1536.864@0.0.1536.864" timestamp="1575048762459" />
-    <state x="496" y="120" key="#Product_image.php" timestamp="1576673956158">
+    <state x="476" y="22" key="#PHP" timestamp="1577439124539">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="496" y="120" key="#Product_image.php/0.0.1536.864@0.0.1536.864" timestamp="1576673956158" />
+    <state x="476" y="22" key="#PHP/0.0.1536.864@0.0.1536.864" timestamp="1577439124539" />
+    <state x="496" y="120" key="#Product_image.php" timestamp="1577439129099">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="496" y="120" key="#Product_image.php/0.0.1536.864@0.0.1536.864" timestamp="1577439129099" />
     <state x="361" y="90" key="#SQL_Dialects" timestamp="1575116318149">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -177,10 +243,24 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="449" y="160" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.864@0.0.1536.864" timestamp="1575048623328" />
-    <state x="393" y="26" key="CommitChangelistDialog2" timestamp="1576065728864">
+    <state x="523" y="64" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579004364250">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="393" y="26" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1576065728864" />
+    <state x="523" y="64" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.864@0.0.1536.864" timestamp="1579004364250" />
+    <state x="483" y="251" width="568" height="481" key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#" timestamp="1577462793265">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="483" y="251" width="568" height="481" key="#com.jetbrains.php.debug.validation.PhpWebServerValidationDialog#/0.0.1536.824@0.0.1536.824" timestamp="1577462793265" />
+    <state x="516" y="280" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1579757200963">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="516" y="267" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1578496383918" />
+    <state x="516" y="280" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.864@0.0.1536.864" timestamp="1579757200963" />
+    <state x="393" y="0" key="CommitChangelistDialog2" timestamp="1578494659862">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="393" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1578494659862" />
+    <state x="393" y="26" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1576681941759" />
     <state width="425" height="466" key="DebuggerActiveHint" timestamp="1576676278173">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -189,90 +269,127 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="93" y="93" width="1350" height="678" key="DiffContextDialog/0.0.1536.864@0.0.1536.864" timestamp="1576315359824" />
-    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1576509306783">
+    <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1580304105517">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1576509306783" />
-    <state width="1493" height="266" key="GridCell.Tab.0.bottom" timestamp="1576681608559">
+    <state x="549" y="178" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578513619021" />
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864/-1920.0.1920.1080@0.0.1536.864" timestamp="1579993912662" />
+    <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1580304105517" />
+    <state width="1493" height="276" key="GridCell.Tab.0.bottom" timestamp="1580326543126">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1576681608559" />
-    <state width="1493" height="266" key="GridCell.Tab.0.center" timestamp="1576681608558">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578519173997" />
+    <state width="1493" height="276" key="GridCell.Tab.0.bottom/0.0.1536.864/-1920.0.1920.1080@0.0.1536.864" timestamp="1580119489507" />
+    <state width="1493" height="276" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1580326543126" />
+    <state width="1493" height="276" key="GridCell.Tab.0.center" timestamp="1580326543126">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1576681608558" />
-    <state width="1493" height="266" key="GridCell.Tab.0.left" timestamp="1576681608558">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578519173997" />
+    <state width="1493" height="276" key="GridCell.Tab.0.center/0.0.1536.864/-1920.0.1920.1080@0.0.1536.864" timestamp="1580119489507" />
+    <state width="1493" height="276" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1580326543126" />
+    <state width="1493" height="276" key="GridCell.Tab.0.left" timestamp="1580326543125">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1576681608558" />
-    <state width="1493" height="266" key="GridCell.Tab.0.right" timestamp="1576681608559">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578519173997" />
+    <state width="1493" height="276" key="GridCell.Tab.0.left/0.0.1536.864/-1920.0.1920.1080@0.0.1536.864" timestamp="1580119489507" />
+    <state width="1493" height="276" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1580326543125" />
+    <state width="1493" height="276" key="GridCell.Tab.0.right" timestamp="1580326543126">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1576681608559" />
-    <state width="1493" height="266" key="GridCell.Tab.1.bottom" timestamp="1576681608559">
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578519173997" />
+    <state width="1493" height="276" key="GridCell.Tab.0.right/0.0.1536.864/-1920.0.1920.1080@0.0.1536.864" timestamp="1580119489507" />
+    <state width="1493" height="276" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1580326543126" />
+    <state width="1493" height="276" key="GridCell.Tab.1.bottom" timestamp="1580326543127">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1576681608559" />
-    <state width="1493" height="266" key="GridCell.Tab.1.center" timestamp="1576681608559">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578519173997" />
+    <state width="1493" height="276" key="GridCell.Tab.1.bottom/0.0.1536.864/-1920.0.1920.1080@0.0.1536.864" timestamp="1580119489508" />
+    <state width="1493" height="276" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1580326543127" />
+    <state width="1493" height="276" key="GridCell.Tab.1.center" timestamp="1580326543126">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1576681608559" />
-    <state width="1493" height="266" key="GridCell.Tab.1.left" timestamp="1576681608559">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1578519173997" />
+    <state width="1493" height="276" key="GridCell.Tab.1.center/0.0.1536.864/-1920.0.1920.1080@0.0.1536.864" timestamp="1580119489507" />
+    <state width="1493" height="276" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1580326543126" />
+    <state width="1493" height="276" key="GridCell.Tab.1.left" timestamp="1580326543126">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1576681608559" />
-    <state width="1493" height="266" key="GridCell.Tab.1.right" timestamp="1576681608559">
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1578519173997" />
+    <state width="1493" height="276" key="GridCell.Tab.1.left/0.0.1536.864/-1920.0.1920.1080@0.0.1536.864" timestamp="1580119489507" />
+    <state width="1493" height="276" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1580326543126" />
+    <state width="1493" height="276" key="GridCell.Tab.1.right" timestamp="1580326543127">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1576681608559" />
-    <state width="1493" height="266" key="GridCell.Tab.2.bottom" timestamp="1576681608559">
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1578519173997" />
+    <state width="1493" height="276" key="GridCell.Tab.1.right/0.0.1536.864/-1920.0.1920.1080@0.0.1536.864" timestamp="1580119489508" />
+    <state width="1493" height="276" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1580326543127" />
+    <state width="1493" height="276" key="GridCell.Tab.2.bottom" timestamp="1580326543127">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1576681608559" />
-    <state width="1493" height="266" key="GridCell.Tab.2.center" timestamp="1576681608559">
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578519173998" />
+    <state width="1493" height="276" key="GridCell.Tab.2.bottom/0.0.1536.864/-1920.0.1920.1080@0.0.1536.864" timestamp="1580119489508" />
+    <state width="1493" height="276" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1580326543127" />
+    <state width="1493" height="276" key="GridCell.Tab.2.center" timestamp="1580326543127">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1576681608559" />
-    <state width="1493" height="266" key="GridCell.Tab.2.left" timestamp="1576681608559">
+    <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1578519173998" />
+    <state width="1493" height="276" key="GridCell.Tab.2.center/0.0.1536.864/-1920.0.1920.1080@0.0.1536.864" timestamp="1580119489508" />
+    <state width="1493" height="276" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1580326543127" />
+    <state width="1493" height="276" key="GridCell.Tab.2.left" timestamp="1580326543127">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1576681608559" />
-    <state width="1493" height="266" key="GridCell.Tab.2.right" timestamp="1576681608559">
+    <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1578519173998" />
+    <state width="1493" height="276" key="GridCell.Tab.2.left/0.0.1536.864/-1920.0.1920.1080@0.0.1536.864" timestamp="1580119489508" />
+    <state width="1493" height="276" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1580326543127" />
+    <state width="1493" height="276" key="GridCell.Tab.2.right" timestamp="1580326543127">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1576681608559" />
-    <state x="573" y="246" key="NewPhpClassDialog" timestamp="1576235066377">
+    <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1578519173998" />
+    <state width="1493" height="276" key="GridCell.Tab.2.right/0.0.1536.864/-1920.0.1920.1080@0.0.1536.864" timestamp="1580119489508" />
+    <state width="1493" height="276" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1580326543127" />
+    <state x="573" y="246" key="NewPhpClassDialog" timestamp="1579719637496">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="573" y="246" key="NewPhpClassDialog/0.0.1536.864@0.0.1536.864" timestamp="1576235066377" />
-    <state x="604" y="355" key="NewPhpFileDialog" timestamp="1576494069616">
+    <state x="573" y="246" key="NewPhpClassDialog/0.0.1536.864@0.0.1536.864" timestamp="1579719637496" />
+    <state x="604" y="355" key="NewPhpFileDialog" timestamp="1580306769904">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="604" y="355" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1576494069616" />
-    <state x="0" y="0" key="PhpDebugProjectChooserDialog" timestamp="1576510014937">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="604" y="339" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1578334943210" />
+    <state x="604" y="355" key="NewPhpFileDialog/0.0.1536.864/-1920.0.1920.1080@0.0.1536.864" timestamp="1580103790404" />
+    <state x="604" y="355" key="NewPhpFileDialog/0.0.1536.864@0.0.1536.864" timestamp="1580306769904" />
+    <state x="0" y="0" key="PhpDebugProjectChooserDialog" timestamp="1578517125492">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="0" y="0" key="PhpDebugProjectChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1578517125492" />
     <state x="0" y="0" key="PhpDebugProjectChooserDialog/0.0.1536.864@0.0.1536.864" timestamp="1576510014937" />
-    <state x="277" y="74" key="SettingsEditor" timestamp="1576076240431">
+    <state x="277" y="71" key="SettingsEditor" timestamp="1577462832123">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="277" y="71" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577462832123" />
+    <state x="277" y="74" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1577441661828" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1578950532980">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="277" y="74" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1576076240431" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1575101955941">
+    <state width="498" height="426" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1577692226671" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.864@0.0.1536.864" timestamp="1578950532980" />
+    <state x="465" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1580299602592">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1536.864@0.0.1536.864" timestamp="1575101955941" />
-    <state x="465" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1576065570350">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="465" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1576065570350" />
+    <state x="465" y="244" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1578509975406" />
+    <state x="465" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1580299602592" />
     <state x="290" y="168" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1576675149653">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="290" y="168" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.864@0.0.1536.864" timestamp="1576675149653" />
-    <state x="425" y="197" key="run.anything.popup" timestamp="1575115815774">
+    <state x="425" y="197" key="run.anything.popup" timestamp="1579782692934">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1575115815774" />
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864/-1920.0.1920.1080@0.0.1536.864" timestamp="1579782692934" />
+    <state x="425" y="197" key="run.anything.popup/0.0.1536.864@0.0.1536.864" timestamp="1579752527647" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1578675392841">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1578675392841" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -332,188 +449,838 @@
           <line>36</line>
           <option name="timeStamp" value="239" />
         </line-breakpoint>
-        <line-breakpoint type="php">
-          <url>file://$PROJECT_DIR$/admin/includes/User.php</url>
-          <line>25</line>
-          <option name="timeStamp" value="241" />
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/product_image.php</url>
+          <line>68</line>
+          <option name="timeStamp" value="638" />
         </line-breakpoint>
-        <line-breakpoint type="php">
-          <url>file://$PROJECT_DIR$/admin/includes/User.php</url>
-          <line>26</line>
-          <option name="timeStamp" value="242" />
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/product_image.php</url>
+          <line>71</line>
+          <option name="timeStamp" value="639" />
         </line-breakpoint>
-        <line-breakpoint type="php">
-          <url>file://$PROJECT_DIR$/admin/includes/User.php</url>
-          <line>27</line>
-          <option name="timeStamp" value="243" />
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/Product_image.php</url>
+          <line>176</line>
+          <option name="timeStamp" value="640" />
         </line-breakpoint>
-        <line-breakpoint type="php">
-          <url>file://$PROJECT_DIR$/admin/includes/User.php</url>
-          <line>30</line>
-          <option name="timeStamp" value="244" />
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/product_detail_page.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="666" />
         </line-breakpoint>
-        <line-breakpoint type="php">
-          <url>file://$PROJECT_DIR$/admin/includes/User.php</url>
-          <line>31</line>
-          <option name="timeStamp" value="245" />
-        </line-breakpoint>
-        <line-breakpoint type="php">
-          <url>file://$PROJECT_DIR$/admin/includes/User.php</url>
-          <line>32</line>
-          <option name="timeStamp" value="247" />
-        </line-breakpoint>
-        <line-breakpoint type="php">
-          <url>file://$PROJECT_DIR$/admin/includes/User.php</url>
-          <line>34</line>
-          <option name="timeStamp" value="248" />
-        </line-breakpoint>
-        <line-breakpoint type="php">
-          <url>file://$PROJECT_DIR$/admin/includes/User.php</url>
-          <line>33</line>
-          <option name="timeStamp" value="249" />
-        </line-breakpoint>
-        <line-breakpoint type="php">
-          <url>file://$PROJECT_DIR$/admin/product_detail.php</url>
-          <line>2</line>
-          <option name="timeStamp" value="252" />
-        </line-breakpoint>
-        <line-breakpoint type="php">
-          <url>file://$PROJECT_DIR$/admin/product_detail.php</url>
-          <line>3</line>
-          <option name="timeStamp" value="253" />
-        </line-breakpoint>
-        <line-breakpoint type="php">
-          <url>file://$PROJECT_DIR$/admin/product_detail.php</url>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/product_detail_page.php</url>
           <line>6</line>
-          <option name="timeStamp" value="254" />
+          <option name="timeStamp" value="667" />
         </line-breakpoint>
-        <line-breakpoint type="php">
-          <url>file://$PROJECT_DIR$/admin/product_detail.php</url>
-          <line>9</line>
-          <option name="timeStamp" value="255" />
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/product_detail_page.php</url>
+          <line>88</line>
+          <option name="timeStamp" value="698" />
         </line-breakpoint>
-        <line-breakpoint type="php">
-          <url>file://$PROJECT_DIR$/admin/product_detail.php</url>
-          <line>10</line>
-          <option name="timeStamp" value="256" />
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/product_detail_page.php</url>
+          <line>84</line>
+          <option name="timeStamp" value="750" />
         </line-breakpoint>
-        <line-breakpoint type="php">
-          <url>file://$PROJECT_DIR$/admin/product_detail.php</url>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/product_image.php</url>
+          <line>65</line>
+          <option name="timeStamp" value="753" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/products.php</url>
+          <line>69</line>
+          <option name="timeStamp" value="756" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/products.php</url>
+          <line>75</line>
+          <option name="timeStamp" value="757" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/products.php</url>
+          <line>74</line>
+          <option name="timeStamp" value="758" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/register_customer.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="761" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/product_detail_page.php</url>
+          <line>11</line>
+          <option name="timeStamp" value="765" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/Db_object.php</url>
+          <line>87</line>
+          <option name="timeStamp" value="767" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/Db_object.php</url>
+          <line>88</line>
+          <option name="timeStamp" value="768" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/Db_object.php</url>
+          <line>91</line>
+          <option name="timeStamp" value="769" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/register_customer.php</url>
+          <line>14</line>
+          <option name="timeStamp" value="771" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/register_customer.php</url>
           <line>16</line>
-          <option name="timeStamp" value="257" />
+          <option name="timeStamp" value="772" />
         </line-breakpoint>
-        <line-breakpoint type="php">
-          <url>file://$PROJECT_DIR$/admin/product_detail.php</url>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/register_customer.php</url>
+          <line>15</line>
+          <option name="timeStamp" value="773" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/register_customer.php</url>
           <line>17</line>
-          <option name="timeStamp" value="258" />
-        </line-breakpoint>
-        <line-breakpoint type="php">
-          <url>file://$PROJECT_DIR$/admin/product_detail.php</url>
-          <line>5</line>
-          <option name="timeStamp" value="263" />
+          <option name="timeStamp" value="774" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/admin/add_product.php</url>
-          <line>34</line>
-          <option name="timeStamp" value="467" />
+          <url>file://$PROJECT_DIR$/register_customer.php</url>
+          <line>18</line>
+          <option name="timeStamp" value="775" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/admin/add_product.php</url>
-          <line>37</line>
-          <option name="timeStamp" value="468" />
+          <url>file://$PROJECT_DIR$/register_customer.php</url>
+          <line>19</line>
+          <option name="timeStamp" value="776" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/admin/add_product.php</url>
-          <line>39</line>
-          <option name="timeStamp" value="469" />
+          <url>file://$PROJECT_DIR$/register_customer.php</url>
+          <line>21</line>
+          <option name="timeStamp" value="777" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/admin/add_product.php</url>
-          <line>41</line>
-          <option name="timeStamp" value="470" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/admin/add_product.php</url>
-          <line>28</line>
-          <option name="timeStamp" value="471" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/admin/add_product.php</url>
-          <line>36</line>
-          <option name="timeStamp" value="477" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/admin/add_product.php</url>
-          <line>33</line>
-          <option name="timeStamp" value="482" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/admin/includes/Product_image.php</url>
-          <line>24</line>
-          <option name="timeStamp" value="494" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/admin/includes/Product_image.php</url>
-          <line>25</line>
-          <option name="timeStamp" value="495" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/admin/includes/Product_image.php</url>
-          <line>26</line>
-          <option name="timeStamp" value="496" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/admin/includes/Product_image.php</url>
-          <line>27</line>
-          <option name="timeStamp" value="497" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/admin/includes/Product_image.php</url>
-          <line>28</line>
-          <option name="timeStamp" value="498" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/admin/includes/Product_image.php</url>
-          <line>30</line>
-          <option name="timeStamp" value="499" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/admin/includes/Product_image.php</url>
-          <line>31</line>
-          <option name="timeStamp" value="500" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/admin/includes/Product_image.php</url>
-          <line>29</line>
-          <option name="timeStamp" value="501" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/admin/includes/Product_image.php</url>
-          <line>33</line>
-          <option name="timeStamp" value="503" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/admin/includes/Product_image.php</url>
-          <line>34</line>
-          <option name="timeStamp" value="504" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php-line-method">
-          <url>file://$PROJECT_DIR$/admin/includes/User.php</url>
-          <line>24</line>
-          <properties>
-            <option name="className" value="\User" />
-            <option name="methodName" value="verify_user" />
-          </properties>
-          <option name="timeStamp" value="240" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php-line-method">
-          <url>file://$PROJECT_DIR$/admin/includes/Product_image.php</url>
+          <url>file://$PROJECT_DIR$/register_customer.php</url>
           <line>23</line>
+          <option name="timeStamp" value="778" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/register_customer.php</url>
+          <line>22</line>
+          <option name="timeStamp" value="779" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/register_customer.php</url>
+          <line>24</line>
+          <option name="timeStamp" value="780" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/register_customer.php</url>
+          <line>25</line>
+          <option name="timeStamp" value="781" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/register_customer.php</url>
+          <line>29</line>
+          <option name="timeStamp" value="782" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/register_customer.php</url>
+          <line>33</line>
+          <option name="timeStamp" value="787" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/register_customer.php</url>
+          <line>39</line>
+          <option name="timeStamp" value="790" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/register_customer.php</url>
+          <line>44</line>
+          <option name="timeStamp" value="792" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/Db_object.php</url>
+          <line>116</line>
+          <option name="timeStamp" value="802" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/Db_object.php</url>
+          <line>117</line>
+          <option name="timeStamp" value="803" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/Db_object.php</url>
+          <line>118</line>
+          <option name="timeStamp" value="805" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/Db_object.php</url>
+          <line>119</line>
+          <option name="timeStamp" value="806" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/Db_object.php</url>
+          <line>120</line>
+          <option name="timeStamp" value="807" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/Db_object.php</url>
+          <line>122</line>
+          <option name="timeStamp" value="808" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/Db_object.php</url>
+          <line>123</line>
+          <option name="timeStamp" value="809" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/Db_object.php</url>
+          <line>125</line>
+          <option name="timeStamp" value="810" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/Db_object.php</url>
+          <line>124</line>
+          <option name="timeStamp" value="811" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/Db_object.php</url>
+          <line>127</line>
+          <option name="timeStamp" value="812" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/Db_object.php</url>
+          <line>128</line>
+          <option name="timeStamp" value="813" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/Db_object.php</url>
+          <line>129</line>
+          <option name="timeStamp" value="814" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/Db_object.php</url>
+          <line>130</line>
+          <option name="timeStamp" value="815" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/Address.php</url>
+          <line>26</line>
+          <option name="timeStamp" value="817" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/Address.php</url>
+          <line>28</line>
+          <option name="timeStamp" value="818" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/Address.php</url>
+          <line>29</line>
+          <option name="timeStamp" value="819" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/Address.php</url>
+          <line>27</line>
+          <option name="timeStamp" value="820" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/Address.php</url>
+          <line>30</line>
+          <option name="timeStamp" value="821" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/register_customer.php</url>
+          <line>7</line>
+          <option name="timeStamp" value="861" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/register_customer.php</url>
+          <line>11</line>
+          <option name="timeStamp" value="864" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/register_customer.php</url>
+          <line>12</line>
+          <option name="timeStamp" value="865" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/register_customer.php</url>
+          <line>8</line>
+          <option name="timeStamp" value="866" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/register_customer.php</url>
+          <line>9</line>
+          <option name="timeStamp" value="867" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/addresses.php</url>
+          <line>5</line>
+          <option name="timeStamp" value="876" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/addresses.php</url>
+          <line>6</line>
+          <option name="timeStamp" value="877" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/products.php</url>
+          <line>90</line>
+          <option name="timeStamp" value="878" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/products.php</url>
+          <line>88</line>
+          <option name="timeStamp" value="879" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/Db_object.php</url>
+          <line>96</line>
+          <option name="timeStamp" value="881" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/Db_object.php</url>
+          <line>97</line>
+          <option name="timeStamp" value="882" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/includes/Db_object.php</url>
+          <line>100</line>
+          <option name="timeStamp" value="883" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/product_detail_page.php</url>
+          <line>18</line>
+          <option name="timeStamp" value="886" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/product_detail_page.php</url>
+          <line>19</line>
+          <option name="timeStamp" value="887" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/product_detail_page.php</url>
+          <line>20</line>
+          <option name="timeStamp" value="888" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/product_detail_page.php</url>
+          <line>21</line>
+          <option name="timeStamp" value="889" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/product_detail_page.php</url>
+          <line>22</line>
+          <option name="timeStamp" value="890" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/product_detail_page.php</url>
+          <line>24</line>
+          <option name="timeStamp" value="891" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/product_detail_page.php</url>
+          <line>25</line>
+          <option name="timeStamp" value="892" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/product_detail_page.php</url>
+          <line>26</line>
+          <option name="timeStamp" value="893" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/product_detail_page.php</url>
+          <line>27</line>
+          <option name="timeStamp" value="894" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/product_detail_page.php</url>
+          <line>37</line>
+          <option name="timeStamp" value="895" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/product_detail_page.php</url>
+          <line>38</line>
+          <option name="timeStamp" value="896" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/product_detail_page.php</url>
+          <line>40</line>
+          <option name="timeStamp" value="897" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/product_detail_page.php</url>
+          <line>41</line>
+          <option name="timeStamp" value="898" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/product_detail_page.php</url>
+          <line>39</line>
+          <option name="timeStamp" value="899" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/product_detail_page.php</url>
+          <line>45</line>
+          <option name="timeStamp" value="900" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/product_detail_page.php</url>
+          <line>46</line>
+          <option name="timeStamp" value="901" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/product_detail_page.php</url>
+          <line>48</line>
+          <option name="timeStamp" value="902" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/../Klaas/checkout.php</url>
+          <line>23</line>
+          <option name="timeStamp" value="903" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/../Klaas/checkout.php</url>
+          <line>24</line>
+          <option name="timeStamp" value="904" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/../Klaas/checkout.php</url>
+          <line>25</line>
+          <option name="timeStamp" value="905" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/cart_page.php</url>
+          <line>87</line>
+          <option name="timeStamp" value="906" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/cart_page.php</url>
+          <line>93</line>
+          <option name="timeStamp" value="907" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/cart_page.php</url>
+          <line>3</line>
+          <option name="timeStamp" value="908" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/cart_page.php</url>
+          <line>10</line>
+          <option name="timeStamp" value="909" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/cart_page.php</url>
+          <line>11</line>
+          <option name="timeStamp" value="910" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/cart_page.php</url>
+          <line>12</line>
+          <option name="timeStamp" value="911" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/cart_page.php</url>
+          <line>14</line>
+          <option name="timeStamp" value="912" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/cart_page.php</url>
+          <line>15</line>
+          <option name="timeStamp" value="913" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/cart_page.php</url>
+          <line>13</line>
+          <option name="timeStamp" value="914" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/cart_page.php</url>
+          <line>16</line>
+          <option name="timeStamp" value="915" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/cart_page.php</url>
+          <line>19</line>
+          <option name="timeStamp" value="916" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/cart_page.php</url>
+          <line>22</line>
+          <option name="timeStamp" value="917" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/cart_page.php</url>
+          <line>49</line>
+          <option name="timeStamp" value="918" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/cart_page.php</url>
+          <line>59</line>
+          <option name="timeStamp" value="919" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/cart_page.php</url>
+          <line>66</line>
+          <option name="timeStamp" value="920" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/cart_page.php</url>
+          <line>67</line>
+          <option name="timeStamp" value="921" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/cart_page.php</url>
+          <line>84</line>
+          <option name="timeStamp" value="922" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/cart_page.php</url>
+          <line>85</line>
+          <option name="timeStamp" value="923" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/cart_page.php</url>
+          <line>86</line>
+          <option name="timeStamp" value="924" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/cart_page.php</url>
+          <line>88</line>
+          <option name="timeStamp" value="925" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/cart_page.php</url>
+          <line>90</line>
+          <option name="timeStamp" value="926" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/cart_page.php</url>
+          <line>94</line>
+          <option name="timeStamp" value="927" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/add_user.php</url>
+          <line>12</line>
+          <option name="timeStamp" value="935" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/add_user.php</url>
+          <line>13</line>
+          <option name="timeStamp" value="936" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/add_user.php</url>
+          <line>14</line>
+          <option name="timeStamp" value="937" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/add_user.php</url>
+          <line>15</line>
+          <option name="timeStamp" value="938" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/add_user.php</url>
+          <line>16</line>
+          <option name="timeStamp" value="939" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/add_user.php</url>
+          <line>17</line>
+          <option name="timeStamp" value="940" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/add_user.php</url>
+          <line>19</line>
+          <option name="timeStamp" value="941" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/add_user.php</url>
+          <line>20</line>
+          <option name="timeStamp" value="942" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/add_user.php</url>
+          <line>10</line>
+          <option name="timeStamp" value="943" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/admin/add_user.php</url>
+          <line>11</line>
+          <option name="timeStamp" value="944" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/checkout_page.php</url>
+          <line>29</line>
+          <option name="timeStamp" value="1243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/checkout_page.php</url>
+          <line>45</line>
+          <option name="timeStamp" value="1244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/checkout_page.php</url>
+          <line>48</line>
+          <option name="timeStamp" value="1245" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/checkout_page.php</url>
+          <line>50</line>
+          <option name="timeStamp" value="1246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/checkout_page.php</url>
+          <line>52</line>
+          <option name="timeStamp" value="1247" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/checkout_page.php</url>
+          <line>55</line>
+          <option name="timeStamp" value="1248" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/checkout_page.php</url>
+          <line>58</line>
+          <option name="timeStamp" value="1249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/checkout_page.php</url>
+          <line>59</line>
+          <option name="timeStamp" value="1250" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/checkout_page.php</url>
+          <line>60</line>
+          <option name="timeStamp" value="1251" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/checkout_page.php</url>
+          <line>62</line>
+          <option name="timeStamp" value="1252" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/checkout_page.php</url>
+          <line>64</line>
+          <option name="timeStamp" value="1253" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/checkout_page.php</url>
+          <line>65</line>
+          <option name="timeStamp" value="1254" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/payment_page.php</url>
+          <option name="timeStamp" value="1256" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/payment_page.php</url>
+          <line>6</line>
+          <option name="timeStamp" value="1257" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/payment_page.php</url>
+          <line>81</line>
+          <option name="timeStamp" value="1258" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/payment_page.php</url>
+          <line>7</line>
+          <option name="timeStamp" value="1259" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/thankyou.php</url>
+          <option name="timeStamp" value="1260" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/thankyou.php</url>
+          <line>1</line>
+          <option name="timeStamp" value="1261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/thankyou.php</url>
+          <line>60</line>
+          <option name="timeStamp" value="1262" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/thankyou.php</url>
+          <line>3</line>
+          <option name="timeStamp" value="1263" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/checkout_page.php</url>
+          <line>12</line>
+          <option name="timeStamp" value="1264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/checkout_page.php</url>
+          <line>14</line>
+          <option name="timeStamp" value="1265" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/checkout_page.php</url>
+          <line>15</line>
+          <option name="timeStamp" value="1266" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/checkout_page.php</url>
+          <line>16</line>
+          <option name="timeStamp" value="1267" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/checkout_page.php</url>
+          <line>20</line>
+          <option name="timeStamp" value="1268" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/checkout_page.php</url>
+          <line>19</line>
+          <option name="timeStamp" value="1269" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/checkout_page.php</url>
+          <line>3</line>
+          <option name="timeStamp" value="1270" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/thankyou.php</url>
+          <line>2</line>
+          <option name="timeStamp" value="1271" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/thankyou.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="1272" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/thankyou.php</url>
+          <line>7</line>
+          <option name="timeStamp" value="1273" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/thankyou.php</url>
+          <line>8</line>
+          <option name="timeStamp" value="1274" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/thankyou.php</url>
+          <line>9</line>
+          <option name="timeStamp" value="1275" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/thankyou.php</url>
+          <line>11</line>
+          <option name="timeStamp" value="1278" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/thankyou.php</url>
+          <line>10</line>
+          <option name="timeStamp" value="1279" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/thankyou.php</url>
+          <line>12</line>
+          <option name="timeStamp" value="1280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/thankyou.php</url>
+          <line>13</line>
+          <option name="timeStamp" value="1281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/thankyou.php</url>
+          <line>15</line>
+          <option name="timeStamp" value="1282" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/thankyou.php</url>
+          <line>16</line>
+          <option name="timeStamp" value="1283" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/thankyou.php</url>
+          <line>17</line>
+          <option name="timeStamp" value="1285" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/thankyou.php</url>
+          <line>18</line>
+          <option name="timeStamp" value="1286" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/thankyou.php</url>
+          <line>19</line>
+          <option name="timeStamp" value="1287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/thankyou.php</url>
+          <line>20</line>
+          <option name="timeStamp" value="1288" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/thankyou.php</url>
+          <line>21</line>
+          <option name="timeStamp" value="1289" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/thankyou.php</url>
+          <line>22</line>
+          <option name="timeStamp" value="1290" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/thankyou.php</url>
+          <line>23</line>
+          <option name="timeStamp" value="1291" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/admin/includes/Db_object.php</url>
+          <line>85</line>
           <properties>
-            <option name="className" value="\Product_image" />
-            <option name="methodName" value="set_file_product" />
+            <option name="className" value="\Db_object" />
+            <option name="methodName" value="find_by_category_id" />
           </properties>
-          <option name="timeStamp" value="493" />
+          <option name="timeStamp" value="766" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/admin/includes/Db_object.php</url>
+          <line>115</line>
+          <properties>
+            <option name="className" value="\Db_object" />
+            <option name="methodName" value="item_exist" />
+          </properties>
+          <option name="timeStamp" value="800" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/admin/includes/Address.php</url>
+          <line>25</line>
+          <properties>
+            <option name="className" value="\Address" />
+            <option name="methodName" value="save_address" />
+          </properties>
+          <option name="timeStamp" value="816" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/admin/includes/Db_object.php</url>
+          <line>94</line>
+          <properties>
+            <option name="className" value="\Db_object" />
+            <option name="methodName" value="find_category_name_by_product_id" />
+          </properties>
+          <option name="timeStamp" value="880" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/admin/includes/Db_object.php</url>
+          <line>181</line>
+          <properties>
+            <option name="className" value="\Db_object" />
+            <option name="methodName" value="create" />
+          </properties>
+          <option name="timeStamp" value="945" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

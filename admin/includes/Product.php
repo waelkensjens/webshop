@@ -17,6 +17,7 @@ class  Product extends Db_object
     public $release_date;
     public $dev;
     public $publisher;
+    public $classname = 'product';
 
 
     public $tmp_path;
@@ -110,11 +111,19 @@ class  Product extends Db_object
     public static function find_by_productname($name){
 
         global $database;
-        $the_result_array = static::find_this_query("SELECT * FROM " .static::$db_table . " WHERE product_name Like '% $name%' LIMIT 1");
+        $the_result_array = static::find_this_query("SELECT * FROM " .static::$db_table . " WHERE product_name Like '%$name%' LIMIT 1");
 
         return !empty($the_result_array) ? array_shift($the_result_array) : false;
     }
 
+
+    public static function find_the_category_products($category_id){
+        global $database;
+        $sql = "SELECT * FROM ".self::$db_table;
+        $sql .= " WHERE category_id = " . $database->escape_string($category_id);
+        $sql .= " ORDER BY category_id ASC";
+        return self::find_this_query($sql);
+    }
     public function delete_product(){
         global $database;
 
@@ -129,6 +138,32 @@ class  Product extends Db_object
 
     }
 
+    public function find_by_price($minPriceOut,$maxPriceOut){
+        global $database;
+        $sql = "SELECT * from ".static::$db_table." WHERE price BETWEEN ".$minPriceOut." AND ".$maxPriceOut;
+        $result = $database->query($sql);
+        $result = mysqli_fetch_all($result);
+        if(!empty($result)){
+            return $result;
+        }else{
+            return $result = 0;
+        }
+    }
 
+    public static function minPrice(){
+        global $database;
+        $sql = "Select MIN(price) From ".static::$db_table;
+        $the_result_array = $database->query($sql);
+        $the_result_array = mysqli_fetch_array($the_result_array);
+        return array_shift($the_result_array);
+    }
+
+    public static function maxPrice(){
+        global $database;
+        $sql = "Select MAX(price) From ".static::$db_table;
+        $the_result_array = $database->query($sql);
+        $the_result_array = mysqli_fetch_array($the_result_array);
+        return array_shift($the_result_array);
+    }
 
 }

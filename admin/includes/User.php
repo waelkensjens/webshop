@@ -132,7 +132,22 @@ class User extends Db_object
         return !empty($the_result_array) ? array_shift($the_result_array) : false;
     }
 
+    public function user_exist(){
+        global $database;
+        $sql = "Select *";
+        $sql .=" From ".static::$db_table;
+        $sql .=" Where username = '".$this->username."' or user_mail = '".$this->user_mail."'";
 
+        $the_result_array = static::find_this_query($sql);
+        return !empty($the_result_array)? false : true;
+    }
+    public static function number_guest(){
+        global $database;
+        $sql = "SELECT count(id) FROM ".static::$db_table." WHERE username like 'guest%'";
+        $result = $database->query($sql);
+        $result = mysqli_fetch_array($result);
+        return array_shift($result);
+    }
 
 }
 ?>

@@ -19,9 +19,21 @@ require_once (INCLUDES_PATH.DS."Db_object.php");
 require_once(INCLUDES_PATH.DS."User.php");
 require_once (INCLUDES_PATH.DS."Role.php");
 require_once (INCLUDES_PATH.DS."Product.php");
+require_once (INCLUDES_PATH.DS."Product_image.php");
 require_once (INCLUDES_PATH.DS."Session.php");
+require_once (INCLUDES_PATH.DS."Address.php");
+require_once (INCLUDES_PATH.DS."Resetpassword.php");
 require_once (INCLUDES_PATH.DS."Comment.php");
 require_once (INCLUDES_PATH.DS."Paginate.php");
+require_once (INCLUDES_PATH.DS."Categorie.php");
+require_once (INCLUDES_PATH.DS."Order.php");
+require_once (INCLUDES_PATH.DS."Order_detail.php");
+require_once (INCLUDES_PATH.DS."Shipping_address.php");
+require_once (INCLUDES_PATH.DS."Country.php");
+require_once (INCLUDES_PATH.DS."Country_detailed.php");
+require_once (INCLUDES_PATH.DS."Voucher.php");
+require_once (INCLUDES_PATH.DS."Coupon.php");
+
 
 
 

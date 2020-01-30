@@ -22,14 +22,13 @@ class Address extends Db_object
 
 
 
-    public function save_address()
-    {
-        if(self::find_by_name($this->address)){
 
-            echo "address exists";
-
-            return false;
-
+    public function save_address(){
+        if($this->address_id){
+            $this->update();
+        }else{
+            $this->create();
+            return $this->address_id;
         }
     }
 
@@ -50,4 +49,5 @@ class Address extends Db_object
 
 
 }
+
 ?>

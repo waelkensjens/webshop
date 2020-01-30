@@ -52,6 +52,13 @@ class Db_object
 
         return !empty($the_result_array) ? array_shift($the_result_array) : false;
     }
+    public static function find_by_user_id($id){
+
+        global $database;
+        $the_result_array = static::find_this_query("SELECT * FROM " .static::$db_table . " WHERE user_id= $id LIMIT 1");
+
+        return !empty($the_result_array) ? array_shift($the_result_array) : false;
+    }
     public static function find_by_role_id($role_id){
 
         global $database;
@@ -76,19 +83,59 @@ class Db_object
 
         return !empty($the_result_array) ? array_shift($the_result_array) : false;
     }
+    public static function find_by_category_id($products){
+
+        global $database;
+        $the_result_array = static::find_this_query("SELECT * FROM " .static::$db_table . " WHERE category_id = ".$products->category_id ." and product_id not like ".$products->product_id);
+
+
+        return !empty($the_result_array) ? $the_result_array: false;
+    }
+
+    public static function find_category_name_by_category_id($products){
+
+        global $database;
+        $the_result_array = static::find_this_query("SELECT category_name FROM " .static::$db_table . " WHERE category_id = ".$products->category_id);
+
+
+        return !empty($the_result_array) ? $the_result_array: false;
+    }
+
+ /*   public static function find_by_class_id("$.static::$db_table." _id){
+
+        global $database;
+        $the_result_array = static::find_this_query("SELECT * FROM " .static::$db_table . " WHERE "$.static::$db_table." _id=" $.static::$db_table _id "LIMIT 1");
 
 
 
+        return !empty($the_result_array) ? array_shift($the_result_array) : false;
+    }*/
 
 
 
+    public function item_exist(){
+        $fields = static::$db_table_fields;
+        $where ='';
+        global $database;
+        $sql = "Select *";
+        $sql .=" From ".static::$db_table;
 
+        foreach($fields as $fieldname){
+            if($this->$fieldname) {
+                $where .=static::$db_table . "." . $fieldname . " = '" . $database->escape_string($this->$fieldname) . "' AND ";
+            }
+        }
+        $where = substr($where,0,-5);
+        $sql .=" Where ".$where;
+        $the_result_array = static::find_this_query($sql);
+        return !empty($the_result_array) ? array_shift($the_result_array) : $this;
+    }
 
 
 
 
     /*CRUD*/
-
+//product_id
     public function save_product(){
 
         return isset($this->product_id) ? $this->update_product() : $this->create_product();
@@ -102,6 +149,7 @@ class Db_object
         $sql .= "VALUES('" . implode("','", array_values($properties))   . "')";
 
         if($database->query($sql)){
+           var_dump($sql);
             $this->product_id = $database->the_insert_id();
 
             return $this->product_id;
@@ -130,6 +178,7 @@ class Db_object
 
 
     /*CREATE*/
+    //crud for id
     public function create(){
         global $database;
         $properties = $this->clean_properties();
@@ -180,6 +229,8 @@ class Db_object
         return (mysqli_affected_rows($database->connection) ==1) ? true : false;
 
     }*/
+
+
 
 
 

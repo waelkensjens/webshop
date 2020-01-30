@@ -5,12 +5,12 @@ if (isset($_POST['search_product'])) {
 
 
 
-$product_id = $_POST['product_id'];
+$name = $_POST['product_name'];
 
-    $product = Product::find_by_product_id($product_id);
+    $product = Product::find_by_productname($name);
 
 if ($product){
-redirect("./product_detail.php?id={$product_id}");
+redirect("./product_detail.php?name={$name}");
 }else{
     redirect("./products.php");
 }}
@@ -25,11 +25,11 @@ redirect("./product_detail.php?id={$product_id}");
     <button type="button" class="close" onclick="Custombox.close();">
         <span>&times;</span><span class="sr-only">Close</span>
     </button>
-    <h4 class="custom-modal-title">Enter Product #</h4>
+    <h4 class="custom-modal-title">Enter Product name</h4>
     <div class="custom-modal-text">
         <form action="" method="post">
-        <label for="product_id">Product #</label>
-        <input type="text" name="product_id" class="form-control"
+        <label for="product_name">Product name</label>
+        <input type="text" name="product_name" class="form-control"
                value="">
         <div class="custom-modal-text">
 

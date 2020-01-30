@@ -8,6 +8,8 @@ $products = Product::find_all();
 
 
 
+
+
 include("includes/sidebarcheck.php");
 include("includes/content-top.php");
 
@@ -48,7 +50,7 @@ include("includes/content-top.php");
                         <th >Caption</th>
                         <th >Description</th>
                         <th >Prijs</th>
-                        <th >Category Id</th>
+                        <th >Category</th>
                         <th>EAN</th>
                         <th>publisher</th>
                         <th>developer</th>
@@ -63,12 +65,16 @@ include("includes/content-top.php");
                     <tbody>
 
                     <?php
-                    foreach ($products as $product) :                ?>
+                    foreach ($products as $product) :
+                        $product_id = $product->product_id;
+                        $images = Product_image::show_front_image_name_by_product_id($product_id);
+                    ?>
                         <tr>
 
 
-                            <td><a href="product_detail.php?id=<?php echo $product->product_id; ?>" ><?php echo $product->product_id; ?></a></td>
-                            <td><img height="40" width="40" src=" <?php echo $product->image_path_and_placeholder(); ?>" alt=""></td>
+                            <td><a href="product_detail.php?name=<?php echo $product->product_name; ?>" ><?php echo $product->product_id; ?></a></td>
+                            <td><img height="40" width="40" src="<?php echo $images->image_path_and_placeholder_back(); ?>" alt=""></td>
+
 
                             <td><?php echo $product->product_name; ?></td>
 
@@ -80,7 +86,9 @@ include("includes/content-top.php");
 
                             <td>€<?php echo $product->prijs ; ?></td>
 
-                            <td><?php echo $product->category_id ; ?></td>
+                            <td> <?php $categories = Categorie::find_category_name_by_category_id($product);?>
+
+                                <?php echo $categories[0]->category_name; ?></td>
                             <td><?php echo $product->EAN ; ?></td>
                             <td><?php echo $product->publisher ; ?></td>
                             <td><?php echo $product->dev ; ?></td>

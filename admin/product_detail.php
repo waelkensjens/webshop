@@ -3,11 +3,17 @@ include("includes/header.php");
 if(!$session->is_signed_in()){
     redirect('login.php');
 }
-$product_id = Product::find_by_product_id($_GET['id']);
-$products = $product_id;
+
+//search prod_name
+$product_name = Product::find_by_productname($_GET['name']);
+$products = $product_name;
+
+$product_id = $product_name->product_id;
+$images = array();
+$images = Product_image::show_front_image_name_by_product_id($product_id);
 
 
-if(empty($_GET['id'])){
+if(empty($_GET['name'])){
     redirect("products.php");
 
 }
@@ -56,7 +62,7 @@ include("includes/content-top.php");
                                     IMAGES
                                 </div>
                                 <div class="sp-wrap">
-                                    <a href="<?php echo $products->image_path_and_placeholder(); ?>"><img src="<?php echo $products->image_path_and_placeholder(); ?>" alt="" ></a>
+                                    <a href="<?php echo $images->image_path_and_placeholder_back(); ?>"><img src="<?php echo $images->image_path_and_placeholder_back(); ?>" alt="" ></a>
                                 </div>
                             </div>
 
@@ -115,26 +121,33 @@ include("includes/content-top.php");
                                         <tr>
                                             <td>players</td>
                                             <td>
-                                                <?php echo $products->dev ; ?>
+
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>Categorie(s)</td>
                                             <td>
-                                                <?php echo $products->publisher ; ?>
+
+
+
+                                                <?php $categories = Categorie::find_by_category_id($products->category_id);?>
+
+                                                    <?php echo $categories->category_name; ?>
+
+
                                             </td>
                                         </tr>
 
                                         <tr>
                                             <td>Pegi-age</td>
                                             <td>
-                                                13 Centimeters
+
                                             </td>
                                         </tr>
                                         <tr>
                                             <td>Pegi-content</td>
                                             <td>
-                                                400 Grams
+
                                             </td>
                                         </tr>
                                         <tr>
@@ -152,13 +165,13 @@ include("includes/content-top.php");
                                         <tr>
                                             <td>Spoken Languages</td>
                                             <td>
-                                                No
+
                                             </td>
                                         </tr>
                                         <tr>
                                             <td >Written Languages</td>
                                             <td>
-                                                TheBrandStore
+
                                             </td>
                                         </tr>
 

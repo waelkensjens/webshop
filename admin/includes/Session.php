@@ -91,5 +91,66 @@ class Session
             $this->message = "";
         }
     }
+
+
+
+
+    // update shop cart
+    public static function update_cart($id,$qty){
+        $shop_cart = array();
+        for ($i=0;$i<sizeof($id);$i++){
+            $item = array();
+            array_push($item,$id[$i]);
+            array_push($item,$qty[$i]);
+            array_push($shop_cart, $item);
+        }
+        return $shop_cart;
+    }
+
+    // delete shop cart item
+    public static function delete_cart_product(){
+        for($i=0;$i<sizeof($_SESSION['shop_cart']);$i++){
+            if ($_SESSION['shop_cart'][$i][0] == $_GET['id']){
+                if (sizeof($_SESSION['shop_cart']) == 1){
+                    unset($_SESSION['shop_cart']);
+                    $_SESSION['shop_cart'] = array();
+                    break;
+                }
+                else{
+                    if($i == 0){
+                        array_shift( $_SESSION['shop_cart']);
+                        break;
+                    }else{
+                        array_splice( $_SESSION['shop_cart'],intval([$i]),1);
+                        break;
+                    }
+                }
+
+            }
+        }
+        return $_SESSION['shop_cart'];
+    }
+
+    //count shop cart items
+    public static function count_shop_items(){
+        if (!empty($_SESSION['shop_cart'])){
+            return count($_SESSION['shop_cart']);
+        }
+        else{
+            return 0;
+        }
+    }
+
+    //clear session variables ($weight $total_price $shop_cart $delivery $order)
+    public static function payed(){
+        $_SESSION['weight'] = array();
+        $_SESSION['total_price'] = array();
+        $_SESSION['shop_cart'] = array();
+        $_SESSION['delivery'] = array();
+        $_SESSION['order'] = array();
+    }
+
+
+
 }
 $session = new Session();
